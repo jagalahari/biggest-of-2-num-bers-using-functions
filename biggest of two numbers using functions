@@ -1,0 +1,14 @@
+def biggest(a,b):
+    if (a>b):
+        print(a," is greater")
+    else:
+        print(b," is greater")
+a=input("Enter a value: ")
+b=input("Enter b value: ")
+biggest(a,b)
+
+Output
+======
+Enter a value:4
+Enter b value:7
+7 is greater
